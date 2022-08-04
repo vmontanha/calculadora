@@ -1,0 +1,13 @@
+.calculator {
+          height: 95vh;
+          width: 100vw;
+          border: none;
+          overflow: hidden;
+          background-color: #000;
+          justify-content: center;
+          box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.8);
+          display: grid;
+          gap: 10px;
+          grid-template-columns: repeat(4, 22%);
+          grid-template-rows: 30vh auto auto auto auto auto;
+}
