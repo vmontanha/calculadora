@@ -10,6 +10,6 @@
           display: grid;
           gap: 14px;
           grid-template-columns: repeat(4, 20%);
-          grid-template-rows: 25vh auto auto auto auto auto;
+          grid-template-rows: 30vh auto auto auto auto auto;
 
 }
