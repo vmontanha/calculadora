@@ -8,8 +8,8 @@
           align-self: center;
           box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.8);
           display: grid;
-          gap: 14px;
-          grid-template-columns: repeat(4, 20%);
+          gap: 5px;
+          grid-template-columns: repeat(4, 23%);
           grid-template-rows: 20vh auto auto auto auto auto;
 
 }
