@@ -7,7 +7,8 @@ const Button = (props) => {
                               button
                               ${props.operation ? 'operation' : ''}
                               ${props.double ? 'double' : ''}
-                              ${props.triple ? 'triple' : ''}
+                              ${props.topoperation ? 'topoperation' : ''}
+                              ${props.btnzero ? 'btnzero' : ''}
                     
                     }
           `}

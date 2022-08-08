@@ -28,10 +28,10 @@ export default class Calculator extends Component {
           render() {
                     return (
                               <div className="calculator">
-                                        <Display value="100" />
-                                        <Button label="AC" click={this.clear} />
-                                        <Button label="+/-" click={this.clear} />
-                                        <Button label="@" click={this.clear} />
+                                        <Display value="0" />
+                                        <Button label="AC" click={this.clear} topoperation />
+                                        <Button label="+/-" click={this.clear} topoperation />
+                                        <Button label="%" click={this.clear} topoperation />
                                         <Button label="÷" click={this.setOperation} operation />
                                         <Button label="7" click={this.addDigit} />
                                         <Button label="8" click={this.addDigit} />
@@ -45,8 +45,7 @@ export default class Calculator extends Component {
                                         <Button label="2" click={this.addDigit} />
                                         <Button label="3" click={this.addDigit} />
                                         <Button label="+" click={this.setOperation} operation />
-                                        <Button label="00" click={this.addDigit} />
-                                        <Button label="0" click={this.addDigit} />
+                                        <Button label="0" click={this.addDigit} double btnzero />
                                         <Button label="," click={this.addDigit} />
                                         <Button label="=" click={this.setOperation} operation />
                               </div>
