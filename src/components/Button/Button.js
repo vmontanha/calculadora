@@ -14,7 +14,7 @@ const Button = (props) => {
           `}
                               onClick={(e) => props.click && props.click(props.label)}
 
-                    >{props.label}</button>
+                    >{props.currentLabel}</button>
           )
 }
 
